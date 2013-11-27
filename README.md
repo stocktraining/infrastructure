@@ -19,6 +19,6 @@ To login to the box, username is 'vagrant' and password is 'vagrant.'
 
 Once you've logged in, run these commands:
 
-cd /vagrant
-sudo puppet apply --modulepath=modules manifests/default.pp
+* cd /vagrant
+* sudo puppet apply --modulepath=modules manifests/default.pp
 
