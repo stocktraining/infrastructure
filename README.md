@@ -13,7 +13,12 @@ Further, you should also have [VirtualBox 4.3.2](https://www.virtualbox.org/wiki
 The Box
 =======
 
-We are using Ubuntu 13.04 as our base box, currently.
+We are using Ubuntu Server 13.04 x64 Raring Ringtail (VirtualBox Guest Additions 4.2.12, Chef 11.4.4, Puppet 2.7.18).
 
-As of right now, it's just a base Ubuntu box.  I'll work on adding packages via Puppet next.
+To login to the box, username is 'vagrant' and password is 'vagrant.'
+
+Once you've logged in, run these commands:
+
+cd /vagrant
+sudo puppet apply --modulepath=modules manifests/default.pp
 
